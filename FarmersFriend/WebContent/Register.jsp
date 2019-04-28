@@ -3,32 +3,120 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Registration Form</title>
-<!--  <link rel="stylesheet" href="./Styles/register.css" type="text/css"/>-->
+
+
+
+
 </head>
+<nav>
+<ul>
+		<li><a>Home</a></li>
+		<li><a>Sign up</a></li>
+	<li><a>About Us</a>
+	 <ul>
+		<li><a>Our Team</a></li>
+		<li><a>Mission &amp; Vision</a></li>
+		<li><a>Resources</a></li>
+	</ul>
+	</li>
+	
+	<li><a>Services</a>
+	<ul>
+		<li><a>Information about crops</a></li>
+		<li><a>Usuage of fertilizers</a></li>
+		<li><a>About soil</a></li>
+		<li><a>Training for students</a></li>
+		<li><a>Currtent Market Prices</a></li>
+		
+	</ul>
+	</li>
+	
+	<li><a>Contact us</a>
+	<ul>
+	<li><a>Phone</a></li>
+	<li><a>Email</a></li>
+	</ul>
+	</li>
+
+</ul>
+</nav>
 <style>
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background-image:url('./Images/greeny.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	width:100%;
+	height:80%;
+	color:white;
+
+}
+
+nav
+{
+	width:100%;
+	height:30px;
+	background:rgba(0,0,0,0.8);
+	border-top:25px solid rgba(255,255,255,0.2);
+	border-bottom:2px solid rgba(255,255,255,0.2);
+}
+nav ul {
+    list-style:none;
+    margin:-25px;
+    padding:0;
+}
+
+nav ul li
+{
+	float:left;
+	width:260px;
+	height:40px;
+	background-color:black;
+	opacity:0.8;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+	margin-right:1px;
+}
+nav ul li a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+nav ul li a:hover
+{
+	background-color:green;
+}
+ul li ul li
+{
+	display:none;
+}
+ul li:hover ul li
+{
+	display:block;
+}
+
 .reg-form
 {
 text-align:center;
-margin:100px 400px;
+margin:110px 400px;
 }
-body
-{
-background-image:url(./Images/greeny.jpg);
-background-repeat:no-repeat;
-background-size:100%;
 
-}
 #register
 {
 width:100%;
-height:550px;
+height:650px;
 background-color:#051019;
 opacity:0.5;
-padding:10px 15px;
+padding:10px 10px;
 box-sizing:border-box;
 border-radius:30px;
-transform:translate(70%,-10%);
-
+transform:translate(70%,-5%);
 }
 #button
 {
@@ -85,7 +173,6 @@ text-align:right;
 padding-right:12px;
 margin-top:12px;
 clear:left;
-}
 
 </style>
 <body>
@@ -114,8 +201,10 @@ clear:left;
 <label>Display Name:</label>
 <input name="usrid" type="text" id="button" placeholder="Enter ur userid"><br>
 <br>
+<label>Gender:</label>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female</label><br>
 <label>
-
 <input type="submit" value="Register" id="reg">
 
 <span class="Registr"></span>
