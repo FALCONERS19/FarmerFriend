@@ -7,7 +7,7 @@
 <title>Registration page</title>
 <!-- <link rel="stylesheet" href="Reg.css" type="text/css"> -->
 <style type="text/css">
-.body{
+body{
     margin: 0;
     padding: 0;
     background-image:url('./Images/regpic.jpeg');

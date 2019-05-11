@@ -24,8 +24,8 @@ h2{
     margin: 0px 0px 200px 200px;
     color:#fff;
     font-size: 18px;
-    padding: 20px;
-    border-radius: 10px
+    padding: 40px;
+    border-radius:20px;
 }
 #register{
     
@@ -38,33 +38,36 @@ label{
     font-style: normal;
 }
 #name{
-    width: 300px;
+    width: 290px;
     /*height: 30px;*/
     border: none;
-    border-radius: 12px;
+    border-radius:20px;
     outline:0;
-    padding: 7px;
+    padding: 10px;
+    padding-left:40px;
+    color:gray;
 }
 #ph{
     width: 65px;
     padding: 6px;
     border: none;
-    border-radius: 12px;
+    border-radius: 20px;
     outline: 0;
 }
 #num{
     width:230px;
     padding: 7px;
+    padding-left:50px;
     border: none;
-    border-radius: 12px;
+    border-radius: 20px;
     outline: 0;
 }
 
 #sub{
-   width:310px;
+   width:340px;
    padding: 10px;
    font-size: 16px;
-   font-family: sans-serif;
+   font-family: century gothic;
    font-style: normal;
    font-weight: 600;
    border: none;
